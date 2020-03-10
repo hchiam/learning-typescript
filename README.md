@@ -12,10 +12,23 @@ Official Website's Playground: <https://www.typescriptlang.org/play/index.html>
 
 ```bash
 npm install -g typescript
+```
+
+and then
+
+```bash
 tsc code-to-compile.ts
-# or
+```
+
+or
+
+```bash
 tsc code-to-compile.ts --outDir output
-# or
+```
+
+or
+
+```bash
 tsc code-to-compile.ts --outFile output/output.js
 ```
 
