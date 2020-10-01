@@ -34,6 +34,13 @@ tsc code-to-compile.ts --outFile output/output.js
 
 More CLI transpiler options: <https://www.typescriptlang.org/docs/handbook/compiler-options.html>
 
+Some notes on classes, interfaces, `extends`, `implements`, and `abstract`:
+
+- `extends` (for a class) = `implements` (for an interface).
+- But `extends` lets you reuse functions from the base class.
+- An interface is just a “contract” with no implementation, but is helpful in other ways.
+- `extends` does NOT enforce implementation, but the `abstract` key word in the base class DOES enforce implementation.
+
 ## A YouTube Tutorial I'm Following
 
 <https://www.youtube.com/watch?v=WBPrJSw7yQA> -> `youtube-tutorial` sub-folder.
