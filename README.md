@@ -78,3 +78,7 @@ console.log(getFullNameScalable(person));
 ```
 
 (Aside: TypeScript defaults class members to public.)
+
+## More examples
+
+<https://github.com/hchiam/learning-js/tree/master/ts>
