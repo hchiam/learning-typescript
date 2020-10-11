@@ -63,25 +63,27 @@ node main.js
 
 ```ts
 function getFullNameScalable(person: Person): string {
-  return person.firstName + ' ' + person.lastName;
+  return person.firstName + " " + person.lastName;
 }
 interface Person {
-  firstName: string,
-  middleName?: string, // optional
-  lastName: string,
-};
+  firstName: string;
+  middleName?: string; // optional
+  lastName: string;
+}
 let person = {
-  firstName: 'Bruce',
-  lastName: 'Wayne',
+  firstName: "Bruce",
+  lastName: "Wayne",
 };
 console.log(getFullNameScalable(person));
 ```
 
 (Aside: TypeScript defaults class members to public.)
 
-## TypeScript decorators
+## TypeScript [decorators](https://github.com/hchiam/learning-typescript/tree/master/decorators)
 
 <https://blog.logrocket.com/a-practical-guide-to-typescript-decorators/#:~:text=Automatic%20error%20guard>
+
+<https://github.com/hchiam/learning-typescript/tree/master/decorators>
 
 ## More examples
 

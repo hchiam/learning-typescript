@@ -1,0 +1,13 @@
+{
+  "name": "decorator-example",
+  "version": "1.0.0",
+  "description": "<https://blog.logrocket.com/a-practical-guide-to-typescript-decorators/#:~:text=Automatic%20error%20guard>",
+  "main": "example.js",
+  "scripts": {
+    "build": "tsc",
+    "run": "node example.js",
+    "go": "npm run build; node example.js"
+  },
+  "author": "",
+  "license": "MIT"
+}
