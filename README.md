@@ -79,6 +79,10 @@ console.log(getFullNameScalable(person));
 
 (Aside: TypeScript defaults class members to public.)
 
+## TypeScript decorators
+
+<https://blog.logrocket.com/a-practical-guide-to-typescript-decorators/#:~:text=Automatic%20error%20guard>
+
 ## More examples
 
 <https://github.com/hchiam/learning-js/tree/master/ts>
