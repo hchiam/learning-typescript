@@ -85,6 +85,10 @@ console.log(getFullNameScalable(person));
 
 <https://github.com/hchiam/learning-typescript/tree/master/decorators>
 
+## `interface` vs `type` keywords
+
+<https://pawelgrzybek.com/typescript-interface-vs-type>
+
 ## More examples
 
 <https://github.com/hchiam/learning-js/tree/master/ts>
