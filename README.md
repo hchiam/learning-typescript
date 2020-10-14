@@ -92,6 +92,7 @@ console.log(getFullNameScalable(person));
 - `interface`s are restricted to object type, but tend to be used more than `type`s anyways
 - `interface`s can be merged, type can't
 - `type` aliases can use computed properties: `type Keys = "firstname" | "surname"`
+  - but it can do more than `enum`: `type Container<T> = { value: T };` (generic)
 
 ## More examples
 
