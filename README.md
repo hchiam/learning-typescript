@@ -89,6 +89,10 @@ console.log(getFullNameScalable(person));
 
 <https://pawelgrzybek.com/typescript-interface-vs-type>
 
+- `interface`s are restricted to object type, but tend to be used more than `type`s anyways
+- `interface`s can be merged, type can't
+- `type` aliases can use computed properties: `type Keys = "firstname" | "surname"`
+
 ## More examples
 
 <https://github.com/hchiam/learning-js/tree/master/ts>
