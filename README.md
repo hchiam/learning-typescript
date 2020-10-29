@@ -38,6 +38,8 @@ More CLI transpiler options: <https://www.typescriptlang.org/docs/handbook/compi
 
 Some notes on classes, interfaces, `extends`, `implements`, and `abstract`:
 
+- `extends` and `abstract` -> enforce implementation of `abstract` functions in things that extend an `abstract` `class`.
+- `implements` and `abstract` -> enforce implementation of `abstract` functions in things that implement an `interface`.
 - `extends` (for a class) = `implements` (for an interface).
 - But `extends` lets you reuse functions from the base class.
 - An interface is just a “contract” with no implementation, but is helpful in other ways.
