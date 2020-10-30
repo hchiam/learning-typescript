@@ -81,11 +81,11 @@ console.log(getFullNameScalable(person));
 
 (Aside: TypeScript defaults class members to public.)
 
-## TypeScript [decorators](https://github.com/hchiam/learning-typescript/tree/master/decorators)
+## TypeScript [decorators](https://github.com/hchiam/learning-typescript/tree/master/decorator-example)
 
 <https://blog.logrocket.com/a-practical-guide-to-typescript-decorators/#:~:text=Automatic%20error%20guard>
 
-<https://github.com/hchiam/learning-typescript/tree/master/decorators>
+<https://github.com/hchiam/learning-typescript/tree/master/decorator-example>
 
 ## `interface` vs `type` keywords
 
