@@ -4,7 +4,7 @@ Just one of the things I'm learning. <https://github.com/hchiam/learning>
 
 Static type checking. CLI tool to transpile to JavaScript that can run on older browsers too. Also can use constructor parameter `public` keyword as a shorthand to automatically add properties to a class. I think I really like the `interface` and `enum` part of TypeScript (e.g. as a consult-able in-code reference to help you/others remember what inputs to include or optionally have).
 
-For me, type checking is not only for preventing errors, but also to remind you or someone else of what data or functions you need to implement.
+**Why bother with types:** For me, type checking is not only for preventing errors, but also to remind you of what data or functions you need to implement. It's like automatically-generated documentation.
 
 ## Try it live in your browser
 
