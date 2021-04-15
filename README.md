@@ -46,6 +46,22 @@ Some notes on classes, interfaces, `extends`, `implements`, and `abstract`:
 - `extends` does NOT enforce implementation, but the `abstract` key word in the base class DOES enforce implementation.
 - `class` props are inherited, while `interface` props are not inherited, they're a contract of things you have to implement
 - `class` prop `abstract` = `interface` prop, in that both are a contract of things of you to implement, but a class can also have things you inherit
+- how to intentionally "hide"/"exclude" inherited props: you can instantiate with a child subclass (more props) and then type the param with the parent class (less props):
+  
+  ```ts
+  interface child implements parent
+  class child extends parent
+
+  // you can:
+  const data: child // many props
+
+  someFunction(data) // (data: parent) in the function, still works since it's a subset of props
+
+  public someFunction(data: parent) {
+      data.lessProps // typed as parent (still transpiles with all props, but has child props hidden for typescript DX)
+      ...
+  }
+  ```
 
 ## A YouTube Tutorial I'm Following
 
