@@ -44,6 +44,8 @@ Some notes on classes, interfaces, `extends`, `implements`, and `abstract`:
 - But `extends` lets you reuse functions from the base class.
 - An interface is just a “contract” with no implementation, but is helpful in other ways.
 - `extends` does NOT enforce implementation, but the `abstract` key word in the base class DOES enforce implementation.
+- `class` props are inherited, while `interface` props are not inherited, they're a contract of things you have to implement
+- `class` prop `abstract` = `interface` prop, in that both are a contract of things of you to implement, but a class can also have things you inherit
 
 ## A YouTube Tutorial I'm Following
 
