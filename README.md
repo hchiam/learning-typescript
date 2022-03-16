@@ -114,6 +114,18 @@ console.log(getFullNameScalable(person));
 - `type` aliases can use computed properties: `type Keys = "firstname" | "surname"`
   - but it can do more than `enum`: `type Container<T> = { value: T };` (generic)
 
+## How to use .d.ts files (type declaration files)
+
+<https://www.typescriptlang.org/docs/handbook/declaration-files/consumption.html>
+
+Type declaration files are what tells TS what types things have, to give you those helpful hover messages, autocomplete, etc.
+
+Example: to get type declarations for node (if it doesn’t already come with its [own type files bundled](https://www.typescriptlang.org/docs/handbook/declaration-files/publishing.html) in):
+
+```sh
+npm install --save-dev @types/node
+```
+
 ## More examples
 
 <https://github.com/hchiam/learning-js/tree/master/ts>
