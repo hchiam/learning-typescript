@@ -126,6 +126,8 @@ Example: to get type declarations for node (if it doesn’t already come with it
 npm install --save-dev @types/node
 ```
 
+or https://github.com/bersling/typescript-library-starter (has example library and consumer)
+
 ## Example .d.ts files for example .js files
 
 https://www.typescriptlang.org/docs/handbook/declaration-files/templates/module-d-ts.html
