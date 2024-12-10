@@ -134,4 +134,8 @@ https://www.typescriptlang.org/docs/handbook/declaration-files/templates/module-
 
 ## More examples
 
-<https://github.com/hchiam/learning-js/tree/master/ts>
+<https://github.com/hchiam/learning-js/tree/main/ts>
+
+## miscellaneous other notes
+
+- check an npm package's types and other stuff like CJS/ESM, etc.: https://arethetypeswrong.github.io/?p=how-draggable%404.1.1 (details: https://github.com/arethetypeswrong/arethetypeswrong.github.io)
