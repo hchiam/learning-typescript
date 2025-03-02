@@ -12,6 +12,8 @@ Official Website's Playground: <https://www.typescriptlang.org/play/index.html>
 
 ## Try it locally with CLI
 
+_**NOTE:**_ do _**NOT**_ install `tsc`!!! Instead, install `typescript` to get access to the `tsc` command:
+
 ```bash
 npm install -g typescript
 ```
