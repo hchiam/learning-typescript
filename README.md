@@ -128,11 +128,11 @@ Example: to get type declarations for node (if it doesn’t already come with it
 npm install --save-dev @types/node
 ```
 
-or https://github.com/bersling/typescript-library-starter (has example library and consumer)
+or <https://github.com/bersling/typescript-library-starter> (has example library and consumer)
 
 ## Example .d.ts files for example .js files
 
-https://www.typescriptlang.org/docs/handbook/declaration-files/templates/module-d-ts.html
+<https://www.typescriptlang.org/docs/handbook/declaration-files/templates/module-d-ts.html>
 
 ## More examples
 
@@ -140,6 +140,5 @@ https://www.typescriptlang.org/docs/handbook/declaration-files/templates/module-
 
 ## miscellaneous other notes
 
-- check an npm package's types and other stuff like CJS/ESM, etc.: https://arethetypeswrong.github.io/?p=how-draggable%404.1.1 (details: https://github.com/arethetypeswrong/arethetypeswrong.github.io)
-- design patterns in TS: https://fireship.io/lessons/typescript-design-patterns/
-
+- check an npm package's types and other stuff like CJS/ESM, etc.: <https://arethetypeswrong.github.io/?p=how-draggable%404.1.1> (details: <https://github.com/arethetypeswrong/arethetypeswrong.github.io>)
+- design patterns in TS: <https://fireship.io/lessons/typescript-design-patterns/>
