@@ -142,3 +142,8 @@ or <https://github.com/bersling/typescript-library-starter> (has example library
 
 - check an npm package's types and other stuff like CJS/ESM, etc.: <https://arethetypeswrong.github.io/?p=how-draggable%404.1.1> (details: <https://github.com/arethetypeswrong/arethetypeswrong.github.io>)
 - design patterns in TS: <https://fireship.io/lessons/typescript-design-patterns/>
+- global function name that will transpile unchanged:
+
+  - ```ts
+    window['functionnamethatwilltranspileunchanged'] = () => {};
+    ```
